@@ -9,7 +9,7 @@
     --corrosa:rgb(255, 3, 66);
 }
 
-@media screen and (min-width : 250px) and (max-width: 1200px) {
+@media screen and (min-width : 250px) and (max-width: 1000px) {
 
 
     body {
@@ -153,4 +153,426 @@
      }
      
      
+}
+
+
+@media screen and (min-width : 700px) and (max-width: 1202px) {
+
+
+  body {
+      background-color: beige;
+  }
+
+  header {
+      padding: 40px;
+     background-color: rgba(221, 14, 48, 0.781);   
+     height: 250px;
+    
+      
+   }
+
+   section {
+      margin-top: 40px;
+    }
+
+    menu > a  { 
+
+      background-color: white;
+      padding: 7px;
+      text-decoration: none;
+      color: var(--corrosa);
+      margin: 10px;
+      border-radius: 20px;
+      font-family:var(--fonte-arial);
+      font-size: 18px;
+      font-weight: bold;
+      border: 1px solid black;
+           
+  }
+
+  menu > a:hover {
+
+      background-color: antiquewhite;
+      
+  }
+
+  #paragrafo {
+
+      font-size: 15px;
+      font-weight: normal;
+      padding-top: 5px;
+    
+    }
+
+    .um {
+      padding:  1px;
+      display: block;
+     
+
+      
+      
+   }
+
+    #primeiraimagem {
+      
+      background-image: url(../imagens/imagem_materia.jpg);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      height: 200px;
+      width: 250px;
+      
+   
+   }
+   #segundaimagem {
+      background-image: url(../imagens/materia-dia.jpg);
+      height: 200px;
+      width: 250px;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+   
+   
+   }
+
+   #terceiraimagem {
+
+      background-image: url(../imagens/desperdicio.jpeg);
+      height: 200px;
+      width: 250px;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: contain;
+   }
+
+
+   aside#primeira {
+      
+
+      display:  inline-block;
+      padding: 10px;
+      width: 250px;
+      height: 452px;
+      border-radius: 5px;
+      box-shadow: 2px 2px 2px 1px  rgba(0, 0, 0, 0.459);
+      margin-left: -100px;
+              
+    }
+
+
+    aside#segunda {
+      
+      display: inline-block;
+    background-color: rgb(255, 255, 255);
+      padding: 10px;
+      width: 250px;
+      height: 454px;
+      margin-left: 50px;
+      box-shadow: 2px 2px 2px 1px  rgba(0, 0, 0, 0.459);
+      border-radius: 5px;
+      
+      margin-top: 55px;
+      
+            
+      
+    }
+
+    aside#terceira {
+
+      display: block;
+     background-color: rgb(255, 255, 255);
+      padding: 10px;
+      width: 250px;
+      height: 450px;
+      margin-left: 60px;
+      box-shadow: 2px 2px 2px 1px  rgba(0, 0, 0, 0.459);
+      border-radius: 5px;
+      margin: auto;
+      margin-top: 100px;
+
+      margin-left: -100px;
+      margin-bottom: 55px;
+
+      
+   
+  
+   
+   }
+   
+   
+}
+
+@media screen and (min-width : 1202px) and (max-width:1500px)  {
+
+
+  body {
+      background-color: beige;
+  }
+
+  header {
+      padding: 40px;
+     background-color: rgba(221, 14, 48, 0.781);   
+     height: 250px;
+    
+      
+   }
+
+   section {
+      margin-top: 40px;
+    }
+
+    menu > a  { 
+
+      background-color: white;
+      padding: 7px;
+      text-decoration: none;
+      color: var(--corrosa);
+      margin: 10px;
+      border-radius: 20px;
+      font-family:var(--fonte-arial);
+      font-size: 18px;
+      font-weight: bold;
+      border: 1px solid black;
+           
+  }
+
+  menu > a:hover {
+
+      background-color: antiquewhite;
+      
+  }
+
+  #paragrafo {
+
+      font-size: 15px;
+      font-weight: normal;
+      padding-top: 5px;
+    
+    }
+
+    .um {
+      padding:  1px;
+      display: block;
+     
+      
+     
+
+      
+      
+   }
+
+   section h2 {
+    font-family: var(--fonte-bebas);
+    font-size: 20px;
+    color: var(--corrosa);
+    text-shadow: 1px black;
+
+}
+
+
+    #primeiraimagem {
+      
+      background-image: url(../imagens/imagem_materia.jpg);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      height: 200px;
+      width: 250px;
+      
+   
+   }
+   #segundaimagem {
+      background-image: url(../imagens/materia-dia.jpg);
+      height: 200px;
+      width: 250px;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+   
+   
+   }
+
+   #terceiraimagem {
+
+      background-image: url(../imagens/desperdicio.jpeg);
+      height: 200px;
+      width: 250px;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: contain;
+   }
+
+
+   aside#primeira {
+      
+
+      display:  inline-block;
+      padding: 10px;
+      width: 250px;
+      height: 452px;
+      border-radius: 5px;
+      box-shadow: 2px 2px 2px 1px  rgba(0, 0, 0, 0.459);
+      margin-left: -100px;
+      margin-top: -5px;
+      
+
+
+                   
+    }
+
+
+    aside#segunda {
+      
+      display: inline-block;
+    background-color: rgb(255, 255, 255);
+      padding: 10px;
+      width: 250px;
+      height: 454px;
+      margin-left: 50px;
+      box-shadow: 2px 2px 2px 1px  rgba(0, 0, 0, 0.459);
+      border-radius: 5px;
+      margin-top: -55px;
+      
+      
+            
+      
+    }
+
+    aside#terceira {
+
+      display: block;
+     background-color: rgb(255, 255, 255);
+      padding: 10px;
+      width: 250px;
+      height: 450px;
+      
+      margin-left: 550px;
+      box-shadow: 2px 2px 2px 1px  rgba(0, 0, 0, 0.459);
+      border-radius: 5px;
+      
+      margin-top: -450px;
+
+      
+     
+
+     
+      
+
+      
+
+      
+     
+
+      
+   
+  
+   
+   }
+   
+   
+}
+
+
+  
+@media screen and (min-width :1501px)  {
+
+#primeiraimagem {
+ 
+  background-image: url(../imagens/imagem_materia.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 350px;
+  width: 400px;
+  
+
+}
+
+#segundaimagem {
+
+  background-image: url(../imagens/materia-dia.jpg);
+  height: 350px;
+  width: 400px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+
+}
+
+#terceiraimagem {
+
+  background-image: url(../imagens/desperdicio.jpeg);
+  height: 350px;
+  width: 400px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+aside#primeira {
+   margin-left: -115px;
+  padding: 10px;
+  width: 400px;
+  height: 600px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 2px 1px  rgba(0, 0, 0, 0.459);
+  margin-bottom: -20px;
+  
+  
+  
+}
+
+
+
+
+
+
+
+aside#segunda  {
+
+  display: block;
+  background-color: rgb(255, 255, 255);
+  padding: 10px;
+  width: 400px;
+  height: 600px;
+  margin-left: 400px;
+  box-shadow: 2px 2px 2px 1px  rgba(0, 0, 0, 0.459);
+  border-radius: 5px;
+  margin-top: -622px;
+  
+  margin-bottom: 3px;
+
+  
+  
+}
+
+
+
+
+aside#terceira {
+
+  display: block;
+  background-color: rgb(255, 255, 255);
+  padding: 10px;
+  width: 400px;
+  height: 600px;
+  margin-left: 900px;
+  box-shadow: 2px 2px 2px 1px  rgba(0, 0, 0, 0.459);
+  border-radius: 5px;
+  margin-top: -620px;
+  margin-bottom: 50px;
+
+ 
+
+}
+
+
+.um {
+  padding:  1px;
+  display:  block;
+
+
+}
+
 }
