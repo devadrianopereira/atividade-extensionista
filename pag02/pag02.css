@@ -1,0 +1,189 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+
+
+}
+
+:root {
+    --fonte-bebas:'Bebas Neue', sans-serif;
+    --fonte-padão:'system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif';
+    --fonte-arial: Arial, Helvetica, sans-serif;
+
+    --corrosa:rgb(255, 3, 66);
+}
+
+
+body, html {
+    height: 100vh;
+    width: 100vw;
+    background-image: url(../imagens/doar2.jpg);
+    background-repeat: no-repeat;
+    background-position:
+    background-size: cover;
+    background-attachment: fixed;
+    
+
+    
+
+}
+
+
+
+
+main {
+    height: 100vh;
+    width: 100vw;
+}
+
+section#cadastro {
+
+     overflow: hidden; 
+    position: absolute;
+    right: 0%;
+    background-color: white;
+    width: 600px;
+    height: 961px;
+    border: 0px solid rgba(255, 255, 255, 0);
+    
+    
+}
+
+#doador {
+    background-color: var(--corrosa);
+    height: 100px;
+    color: white;
+   font-family: var(--fonte-arial);
+   font-weight: bold;
+   font-size: 16px;
+}
+
+#doador > p{
+
+    text-align: center;
+    padding-top: 30px;
+}
+
+
+div.campoum > label {
+    margin-left: 10px;
+    display: block;
+    padding-top: 20px;
+    font-size: 16px;
+    font-family: var(--fonte-arial);
+    font-weight: bold;
+    
+
+}
+
+div.campoum > input {
+    margin-left: 10px;
+    font-size: 1em;
+    height: 100%;
+    border-radius: 4px;
+    padding: 10px;
+    width: 80%;
+    border: 1px solid var(--corrosa);
+    background-color: rgba(255, 192, 203, 0.233);
+
+}
+
+div.campodois > label {
+
+    margin-left: 10px;
+    display: block;
+    padding-top: 20px;
+    font-size: 16px;
+    font-family: var(--fonte-arial);
+    font-weight: bold;
+    
+
+}
+
+
+
+
+div.campodois > input {
+    margin-left: 10px;
+
+    font-size: 1em;
+    height: 100%;
+    border-radius: 4px;
+    padding: 10px;
+    width: 80%;
+    border: 1px solid var(--corrosa);
+    background-color: rgba(255, 192, 203, 0.233);
+}
+
+div.campotres > label {
+
+    margin-left: 10px;
+    display: block;
+    padding-top: 20px;
+    font-size: 16px;
+    font-family: var(--fonte-arial);
+    font-weight: bold;
+}
+
+
+div.campotres > input  {
+
+    margin-left: 10px;
+
+    font-size: 1em;
+    height: 100%;
+    border-radius: 4px;
+    padding: 10px;
+    width: 80%;
+    border: 1px solid var(--corrosa);
+    background-color: rgba(255, 192, 203, 0.233);
+}
+
+
+div.campoquatro > label {
+
+    margin-left: 10px;
+    display: block;
+    padding-top: 20px;
+    font-size: 16px;
+    font-family: var(--fonte-arial);
+    font-weight: bold;
+
+}
+
+div.campoquatro > input {
+
+    margin-left: 10px;
+    font-size: 1em;
+    height: 100%;
+    border-radius: 4px;
+    padding: 10px;
+    width: 80%;
+    border: 1px solid var(--corrosa);
+    background-color: rgba(255, 192, 203, 0.233);
+}
+
+div > input[type=submit] {
+
+    display: block;
+        font-size: 17px;
+        width: 75%;
+        height: 40px;
+        background-color: #49a09d;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        margin-top: 55px;
+        margin-left: 33px;
+    }
+
+    div > input[type=submit]:hover {
+        background-color: #2ecfcaa9;
+        color: azure;
+        cursor: pointer;
+
+    }

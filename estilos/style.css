@@ -1,0 +1,310 @@
+@charset "UTF-8";
+
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+
+:root {
+    --fonte-bebas:'Bebas Neue', sans-serif;
+    --fonte-padão:'system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif';
+    --fonte-arial: Arial, Helvetica, sans-serif;
+
+    --corrosa:rgb(255, 3, 66);
+}
+
+
+ *{
+    margin: 0px;
+    padding: 0px;
+ }
+
+ body {
+    min-width: 200px;
+    
+    
+ }
+
+ header {
+    padding: 40px;
+   background-color: rgba(221, 14, 48, 0.781);   
+   height: 250px;
+  
+    
+ }
+    
+ section {
+   margin-left: 150px;
+   margin-top: 40px;
+ }
+    
+
+ header > h1 {
+    font-family: var(--fonte-bebas);
+     text-align: center;
+     color: rgb(255, 255, 255);
+     font-size: 55px;
+     text-shadow: 1px 2px 1px rgba(2, 2, 2, 0.795);
+     margin: auto;
+     padding: 5px;
+    max-width:505px;
+     padding-top: 35px;
+         
+       
+   }
+
+   header p {
+      font-family: var(--fonte-arial);
+     text-align: center;
+     color: rgb(255, 255, 255);
+     font-size: 30px;
+     text-shadow: 1px 2px 1px rgba(2, 2, 2, 0.685);
+     margin: auto;
+     padding: 45px;
+    max-width:505px;
+     height: 67px;
+     margin-top: -20px;
+   }
+
+
+ menu {
+    text-align: center;
+    margin: -30px;
+    
+ }
+
+ menu > a  { 
+    
+     background-color: white;
+     padding: 8px;
+     text-decoration: none;
+     color: var(--corrosa);
+     margin: 40px;
+     border-radius: 20px;
+     font-family:var(--fonte-arial);
+     font-size: 18px;
+     font-weight: bold;
+     border: 1px solid black;
+     
+     
+     
+ }
+
+
+
+
+.um {
+   padding: 35px;
+   display: inline-flex;
+}
+
+
+ a:hover {
+
+        color: var(--corrosa);
+        background-color: white;
+        border: 2px solid black;
+ }   
+    
+     
+section h2 {
+    font-family: var(--fonte-bebas);
+    font-size: 30px;
+    color: var(--corrosa);
+    text-shadow: 1px black;
+
+}
+
+
+#paragrafo {
+ 
+  font-size: 15px;
+  font-weight: normal;
+  padding-top: 25px;
+
+}
+
+ 
+
+
+
+
+ 
+
+
+
+ #primeiraimagem {
+ 
+   background-image: url(../imagens/imagem_materia.jpg);
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+   height: 400px;
+   width: 450px;
+   
+
+}
+
+#segundaimagem {
+
+   background-image: url(../imagens/materia-dia.jpg);
+   height: 400px;
+   width: 450px;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+
+
+}
+
+#terceiraimagem {
+
+   background-image: url(../imagens/desperdicio.jpeg);
+   height: 400px;
+   width: 450px;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: contain;
+}
+
+
+
+
+aside#primeira:hover >h3 {
+
+   background-color: var(--corrosa);
+   color: white;
+   
+}
+   
+aside#primeira:hover >p {
+
+   background-color: var(--corrosa);
+   color: white;
+}
+   
+
+aside#primeira:hover {
+   background-color: var(--corrosa);
+  
+   
+}
+
+   
+
+
+
+ aside#primeira {
+   padding: 10px;
+   width: 450px;
+   height: 600px;
+   border-radius: 5px;
+   box-shadow: 2px 2px 2px 1px  rgba(0, 0, 0, 0.459);
+   margin-bottom: -20px;
+   
+   
+   
+ }
+
+
+
+
+
+ 
+
+ aside#segunda  {
+   background-color: rgb(255, 255, 255);
+   padding: 10px;
+   width: 450px;
+   height: 600px;
+   margin-left: 70px;
+   box-shadow: 2px 2px 2px 1px  rgba(0, 0, 0, 0.459);
+   border-radius: 5px;
+   
+   margin-bottom: -20px;
+
+   
+   
+ }
+
+
+
+ 
+ aside#terceira {
+   background-color: rgb(255, 255, 255);
+   padding: 10px;
+   width: 450px;
+   height: 600px;
+   margin-left: 60px;
+   box-shadow: 2px 2px 2px 1px  rgba(0, 0, 0, 0.459);
+   border-radius: 5px;
+
+   margin-bottom: -20px;
+
+}
+
+aside#segunda:hover > #doar {
+
+   background-color: white;
+   color: var(--corrosa);
+}
+
+ aside#segunda:hover {
+   background-color: var(--corrosa);
+ }
+
+aside#segunda:hover >h3 {
+
+   background-color: var(--corrosa);
+   color: white;
+   
+}
+   
+aside#segunda:hover >p {
+
+   background-color: var(--corrosa);
+   color: white;
+}
+
+
+aside#terceira:hover >h3 {
+
+   background-color: var(--corrosa);
+   color: white;
+   
+}
+   
+aside#terceira:hover >p {
+
+   background-color: var(--corrosa);
+   color: white;
+}
+   
+
+aside#terceira:hover {
+   background-color: var(--corrosa);
+  
+   
+}
+
+
+ aside h3 {
+
+
+   color: rgb(0, 0, 0);
+   font-size: 43px;
+   font-family: var(--fonte-bebas);
+   padding-top: 30px;
+   text-align: center;
+   padding-top: 5px;
+
+ }
+
+ aside p {
+   font-weight: bold;
+   color: rgb(0, 0, 0);
+   font-size: 20px;
+   font-family: var(--fonte-arial);
+   text-align: center;
+   padding-top: 10px;
+   
+ }
