@@ -9,7 +9,7 @@
     --corrosa:rgb(255, 3, 66);
 }
 
-@media screen and (min-width : 250px) and (max-width: 1000px) {
+@media screen and (min-width : 250px) and (max-width: 500px) {
 
 
     body {
@@ -141,10 +141,12 @@
         margin-left: 60px;
         box-shadow: 2px 2px 2px 1px  rgba(0, 0, 0, 0.459);
         border-radius: 5px;
+        
         margin: auto;
         margin-top: 54px;
-
+        margin-bottom: 55px;
         margin-left: -100px;
+        
 
         
      
@@ -248,7 +250,7 @@
 
    aside#primeira {
       
-
+    
       display:  inline-block;
       padding: 10px;
       width: 250px;
@@ -271,7 +273,7 @@
       box-shadow: 2px 2px 2px 1px  rgba(0, 0, 0, 0.459);
       border-radius: 5px;
       
-      margin-top: 55px;
+      margin-top: 50px;
       
             
       

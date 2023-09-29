@@ -1,0 +1,152 @@
+@charset "UTF-8";
+
+
+
+@media  screen and (min-width: 200px ) and (max-width:1020px) {
+    
+    section#cadastro {
+
+        right: 10%;
+        top: 25%;
+       width: 80vw;
+       height: 700px;
+       
+    }
+    
+    #doador {
+       background-color: var(--corrosa);
+       height: 100px;
+       color: white;
+      font-family: var(--fonte-arial);
+      font-weight: bold;
+      font-size: 17px;
+    }
+    
+    #doador > p{
+    
+       text-align: center;
+       padding-top: 30px;
+    }
+    
+    
+    div.campoum > label {
+       margin-left: 10px;
+       display: block;
+       padding-top: 20px;
+       font-size: 14px;
+       font-family: var(--fonte-arial);
+       font-weight: bold;
+       
+    
+    }
+    
+    div.campoum > input {
+       margin-left: 10px;
+       font-size: 1em;
+       height: 100%;
+       border-radius: 4px;
+       padding: 2px;
+       width: 70%;
+       border: 1px solid var(--corrosa);
+       background-color: rgba(255, 192, 203, 0.233);
+    
+    }
+    
+    div.campodois > label {
+    
+       margin-left: 10px;
+       display: block;
+       padding-top: 20px;
+       font-size: 13px;
+       font-family: var(--fonte-arial);
+       font-weight: bold;
+       
+    
+    }
+    
+    
+    
+    
+    div.campodois > input {
+       margin-left: 10px;
+    
+       font-size: 1em;
+       height: 100%;
+       border-radius: 4px;
+       padding: 2px;
+       width: 70%;
+       border: 1px solid var(--corrosa);
+       background-color: rgba(255, 192, 203, 0.233);
+    }
+    
+    div.campotres > label {
+    
+       margin-left: 10px;
+       display: block;
+       padding-top: 20px;
+       font-size: 13px;
+       font-family: var(--fonte-arial);
+       font-weight: bold;
+    }
+    
+    
+    div.campotres > input  {
+    
+       margin-left: 10px;
+    
+       font-size: 1em;
+       height: 100%;
+       border-radius: 4px;
+       padding: 2px;
+       width: 70%;
+       border: 1px solid var(--corrosa);
+       background-color: rgba(255, 192, 203, 0.233);
+    }
+    
+    
+    div.campoquatro > label {
+    
+       margin-left: 10px;
+       display: block;
+       padding-top: 20px;
+       font-size: 13px;
+       font-family: var(--fonte-arial);
+       font-weight: bold;
+    
+    }
+    
+    div.campoquatro > input {
+    
+       margin-left: 10px;
+       font-size: 1em;
+       height: 100%;
+       border-radius: 4px;
+       padding: 2px;
+       width: 70%;
+       border: 1px solid var(--corrosa);
+       background-color: rgba(255, 192, 203, 0.233);
+    }
+    
+    div > input[type=submit] {
+    
+       display: block;
+           font-size: 17px;
+           width: 75%;
+           height: 40px;
+           background-color: #49a09d;
+           color: white;
+           border: none;
+           border-radius: 5px;
+           margin-top: 55px;
+           margin-left: 33px;
+       }
+    
+       div > input[type=submit]:hover {
+           background-color: #2ecfcaa9;
+           color: azure;
+           cursor: pointer;
+    
+       }
+    
+}
+
