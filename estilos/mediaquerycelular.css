@@ -9,11 +9,11 @@
     --corrosa:rgb(255, 3, 66);
 }
 
-@media screen and (min-width : 200px) and (max-width: 500px) {
+@media screen and (min-width : 200px) and (max-width: 700px) {
 
 
     body {
-        background-color: beige;
+        background-color: rgba(245, 245, 220, 0.705);
     }
 
     header {
@@ -45,23 +45,22 @@
       menu > a  { 
 
 
-        margin-top: 15px;
-        background-color: white;
-        padding: 7px;
-        text-decoration: none;
-        color: var(--corrosa);
         display: block;
-        border-radius: 20px;
-        font-family:var(--fonte-arial);
-        font-size: 18px;
-        font-weight: bold;
-        border: 1px solid black;
+        
              
     }
 
+    #querodoar {
+      background-color: white;
+      color: var(--corrosa);
+      padding: 12px;
+      border: 1px solid black;
+      text-decoration: none;
+   }
+
     menu > a:hover {
 
-        background-color: antiquewhite;
+        
         
     }
 
@@ -121,7 +120,7 @@
         display: block;
         padding: 10px;
         width: 200px;
-        height: 500px;
+        height: 600px;
         border-radius: 5px;
         box-shadow: 2px 2px 2px 1px  rgba(0, 0, 0, 0.459);
         margin-left: -100px;
@@ -137,7 +136,7 @@
       background-color: rgb(255, 255, 255);
         padding: 10px;
         width: 200px;
-        height: 500px;
+        height: 600px;
         margin-left: 50px;
         margin-top: 54px;
         box-shadow: 2px 2px 2px 1px  rgba(0, 0, 0, 0.459);
@@ -154,7 +153,7 @@
        background-color: rgb(255, 255, 255);
         padding: 10px;
         width: 200px;
-        height: 500px;
+        height: 600px;
         margin-left: 60px;
         box-shadow: 2px 2px 2px 1px  rgba(0, 0, 0, 0.459);
         border-radius: 5px;
@@ -198,4 +197,9 @@
         padding-top: 25px;
       
       }
-}
+
+      #paragrafo3 {
+
+        font-size:15px;
+      }
+} 

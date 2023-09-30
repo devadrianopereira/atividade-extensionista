@@ -13,7 +13,7 @@
 
 
     body {
-        background-color: beige;
+        background-color: rgba(245, 245, 220, 0.705);
     }
 
     header {
@@ -30,22 +30,22 @@
 
       menu > a  { 
 
-        background-color: white;
-        padding: 7px;
+        padding: 8px;
         text-decoration: none;
-        color: var(--corrosa);
-        margin: 10px;
-        border-radius: 20px;
+        color: white;
+        margin: 40px;
+        
         font-family:var(--fonte-arial);
         font-size: 18px;
         font-weight: bold;
-        border: 1px solid black;
+      
+       
              
     }
 
     menu > a:hover {
 
-        background-color: antiquewhite;
+        
         
     }
 
@@ -60,6 +60,7 @@
       .um {
         padding:  1px;
         display: block;
+        
        
 
         
@@ -101,7 +102,7 @@
 
      aside#primeira {
         
-
+      
         display: inline-block;
         padding: 10px;
         width: 350px;
@@ -158,11 +159,12 @@
 }
 
 
-@media screen and (min-width : 700px) and (max-width: 1202px) {
+@media screen and (min-width : 500px) and (max-width: 1202px) {
 
 
   body {
-      background-color: beige;
+      background-color: rgba(245, 245, 220, 0.705);
+     
   }
 
   header {
@@ -179,22 +181,13 @@
 
     menu > a  { 
 
-      background-color: white;
-      padding: 7px;
-      text-decoration: none;
-      color: var(--corrosa);
-      margin: 10px;
-      border-radius: 20px;
-      font-family:var(--fonte-arial);
-      font-size: 18px;
-      font-weight: bold;
-      border: 1px solid black;
+      
            
   }
 
   menu > a:hover {
 
-      background-color: antiquewhite;
+     
       
   }
 
@@ -250,14 +243,16 @@
 
    aside#primeira {
       
-    
+    background-color: white;
       display:  inline-block;
       padding: 10px;
       width: 250px;
-      height: 452px;
+      height: 602px;
       border-radius: 5px;
       box-shadow: 2px 2px 2px 1px  rgba(0, 0, 0, 0.459);
       margin-left: -100px;
+      
+      
               
     }
 
@@ -268,12 +263,13 @@
     background-color: rgb(255, 255, 255);
       padding: 10px;
       width: 250px;
-      height: 452px;
+      height: 604px;
       margin-left: 50px;
       box-shadow: 2px 2px 2px 1px  rgba(0, 0, 0, 0.459);
       border-radius: 5px;
       
       margin-top: 50px;
+      
       
             
       
@@ -285,7 +281,7 @@
      background-color: rgb(255, 255, 255);
       padding: 10px;
       width: 250px;
-      height: 452px;
+      height: 602px;
       margin-left: 60px;
       box-shadow: 2px 2px 2px 1px  rgba(0, 0, 0, 0.459);
       border-radius: 5px;
@@ -304,11 +300,15 @@
    
 }
 
-@media screen and (min-width : 975px) and (max-width:1500px)  {
+
+
+
+
+@media screen and (min-width : 1201px) and (max-width:1500px)  {
 
 
   body {
-      background-color: beige;
+      background-color: rgba(245, 245, 220, 0.705);
   }
 
   header {
@@ -325,22 +325,13 @@
 
     menu > a  { 
 
-      background-color: white;
-      padding: 7px;
-      text-decoration: none;
-      color: var(--corrosa);
-      margin: 10px;
-      border-radius: 20px;
-      font-family:var(--fonte-arial);
-      font-size: 18px;
-      font-weight: bold;
-      border: 1px solid black;
+     
            
   }
 
   menu > a:hover {
 
-      background-color: antiquewhite;
+      
       
   }
 
@@ -407,11 +398,11 @@
 
    aside#primeira {
       
-
+ background-color: white;
       display:  inline-block;
       padding: 10px;
       width: 250px;
-      height: 452px;
+      height: 600px;
       border-radius: 5px;
       box-shadow: 2px 2px 2px 1px  rgba(0, 0, 0, 0.459);
       margin-left: -100px;
@@ -429,7 +420,7 @@
     background-color: rgb(255, 255, 255);
       padding: 10px;
       width: 250px;
-      height: 454px;
+      height: 600px;
       margin-left: 50px;
       box-shadow: 2px 2px 2px 1px  rgba(0, 0, 0, 0.459);
       border-radius: 5px;
@@ -446,13 +437,15 @@
      background-color: rgb(255, 255, 255);
       padding: 10px;
       width: 250px;
-      height: 450px;
+      height: 600px;
       
       margin-left: 550px;
       box-shadow: 2px 2px 2px 1px  rgba(0, 0, 0, 0.459);
       border-radius: 5px;
       
-      margin-top: -450px;
+      margin-top: -605px;
+
+      margin-bottom: 55px;
 
       
      
@@ -477,6 +470,10 @@
 
   
 @media screen and (min-width :1501px) and (max-width:1900px)  {
+
+  body {
+    background-color: rgb(245, 245, 220, 0.705);
+  }
 
 #primeiraimagem {
  
@@ -513,6 +510,7 @@
 }
 
 aside#primeira {
+  background-color: white;
    margin-left: -85px;
   padding: 10px;
   width: 400px;
@@ -582,6 +580,11 @@ aside#terceira {
 
 @media screen and (min-width :1902px)  {
 
+ 
+  body {
+    background-color: rgba(245, 245, 220, 0.705);
+  }
+
   #primeiraimagem {
    
     background-image: url(../imagens/imagem_materia.jpg);
@@ -617,6 +620,8 @@ aside#terceira {
   }
   
   aside#primeira {
+
+    background-color: white;
      margin-left: -5px;
     padding: 10px;
     width: 400px;
