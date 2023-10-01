@@ -187,3 +187,10 @@ div > input[type=submit] {
         cursor: pointer;
 
     }
+
+    #ultimoparagrafo {
+
+        margin-left: 10px;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    }
